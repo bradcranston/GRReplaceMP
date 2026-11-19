@@ -1,20 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaskets Rock Email</title>
     <style>
-      @import "./src/style.css";
+        body {
+            background-color: #eeeeee;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #000000;
+        }
+        table {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #FFFFFF;
+            border-collapse: collapse;
+        }
+        .header {
+            text-align: center;
+            background-color: #eeeeee;
+            padding: 20px 0;
+        }
+        .header img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .container {
+            padding: 30px;
+            position: relative; /* Prevents reply stacking */
+            z-index: 1;
+            min-height: 500px; /* Ensures content is properly spaced */
+        }
+        .content img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+        }
+        .content p {
+            line-height: 1.5;
+        }
+        .footer {
+            background-color: #3f5b5c;
+            background-image: url('https://mcusercontent.com/4dd6587da5c527651d1f24c08/images/3913ee00-e246-750f-750a-af554d4833d9.png');
+            background-size: cover;
+            text-align: center;
+            padding: 30px;
+            color: #ffffff;
+        }
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+            margin: 0 5px;
+        }
+        .hidden-separator {
+            border-bottom: 1px solid transparent; /* Helps separate original email in replies */
+            margin: 20px 0;
+            display: block;
+        }
     </style>
-    <title>JSDev</title>
-  </head>
-  <body>
-    <h1>Alright. You're set.</h1>
-      <h2 class="tintedBlackLeft">Now build something amazing!</h2>
-      <p>JS in FM is amazing</p>
-    <button type="button">Click Me!</button>
+</head>
+<body>
+    <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <td class="header">
+                <img src="https://mcusercontent.com/4dd6587da5c527651d1f24c08/images/13316e36-56d5-4e00-bef0-5516221dfbe2.png" 
+                     alt="Gaskets Rock Logo"
+                     style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
+                     class="mcnImage"
+            </td>
+        </tr>
+        <tr>
+            <td class="container">
+                <div class="content">
+                    <!-- Re-added missing image -->
+                    <div style="text-align: center; margin: 20px 0;">
+                        <img src="https://mcusercontent.com/4dd6587da5c527651d1f24c08/images/4f181ba2-467e-44ea-bb28-2560dbd4e646.png" 
+                             alt="Gaskets Rock Additional Image" 
+                             style="max-width: 100%; height: auto; display: block; margin: 0 auto;">
+                    </div>
 
-    <script type="module">
-      import "./src/index.js";
-    </script>
-  </body>
+
+emailBody
+                    
+                </div>
+                
+                <!-- Hidden separator for reply formatting -->
+                <div class="hidden-separator"></div>
+            </td>
+        </tr>
+        <tr>
+            <td class="footer">
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/GasketsRock/" target="_blank">
+                        <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-facebook-48.png" alt="Facebook">
+                    </a>
+                    <a href="http://gasketsrock.com" target="_blank">
+                        <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-link-48.png" alt="Website">
+                    </a>
+                    <a href="https://www.linkedin.com/company/gaskets-rock-international/" target="_blank">
+                        <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-linkedin-48.png" alt="LinkedIn">
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCTu9IuB2B5dTOi8JQ-lMvKg" target="_blank">
+                        <img src="https://cdn-images.mailchimp.com/icons/social-block-v2/dark-youtube-48.png" alt="YouTube">
+                    </a>
+                </div>
+                <p>Gaskets Rock International · 409 Parkway View Dr · Pittsburgh, PA 15205 · USA</p>
+<p style="text-align: center;"><a href=[UNSUBSCRIBE]>unsubscribe</a></p>           
+ </td>
+        </tr>
+    </table>
+</body>
 </html>
